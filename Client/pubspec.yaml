@@ -1,0 +1,12 @@
+name: Audit
+dependencies:
+  polymer: 1.0.0-rc.3
+  web_components: ^0.12.0
+  reflectable: "^0.3.3"
+transformers:
+- web_components:
+    entry_points:
+      - client/web/index.html
+- reflectable:
+    entry_points:
+      - client/web/index.dart
